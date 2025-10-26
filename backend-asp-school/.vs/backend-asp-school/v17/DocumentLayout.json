@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|c:\\users\\admin\\source\\repos\\backend-asp-school\\backend-asp-school\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1C03DC4-3EFF-4698-8FD2-B472F39DF0B1}|backend-asp-school\\backend-asp-school.csproj|solutionrelative:backend-asp-school\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\ExamController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\ExamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T07:02:19.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\ClassesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\ClassesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:08:43.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\TeacherController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:43:05.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parent.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Parent.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Parent.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Parent.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Parent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:38:49.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Exam.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Exam.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Exam.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:38:09.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Teacher.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:36:27.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParentController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ParentController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\ParentController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ParentController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\ParentController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T07:04:20.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Student.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Student.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:27:40.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Lesson.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Lesson.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Lesson.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA9wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:37:53.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\LessonController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\LessonController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:18:43.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppdbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\AppdbContext.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\AppdbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\AppdbContext.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\AppdbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:39:08.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Program.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Program.cs",
+              "RelativeToolTip": "backend-asp-school\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAawD8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:49:44.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwC8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:27:54.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Classes.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Classes.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Classes.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Classes.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:36:52.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Result.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Result.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Result.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:37:45.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\appsettings.json",
+              "RelativeDocumentMoniker": "backend-asp-school\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\appsettings.json",
+              "RelativeToolTip": "backend-asp-school\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T06:56:33.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResultController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ResultController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\ResultController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\ResultController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\ResultController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:00:35.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\SubjectController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\SubjectController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:52:40.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\Subject.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T06:36:41.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "backend-asp-school\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:10:50.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "backend-asp-school\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "backend-asp-school\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:05:45.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend-asp-school\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "backend-asp-school\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T07:05:38.77Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
