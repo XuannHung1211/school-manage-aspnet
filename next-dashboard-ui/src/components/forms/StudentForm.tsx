@@ -1,5 +1,4 @@
 "use client";
-
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm, Controller } from "react-hook-form";
 import { z } from "zod";
@@ -60,8 +59,10 @@ const StudentForm = ({
           StudentName: data.studentName,
           ClassID: parseInt(data.className), // ID lớp
           BirthDate: data.birthday,
-          Gender: data.gender,
+          Gender: data.gender
+         
         }); 
+        toast.dismiss()
         toast.success("Create success")
 
         if (onSuccess) onSuccess(res.data);
@@ -70,6 +71,7 @@ const StudentForm = ({
       }
     } catch (err) {
       console.error("Error creating student:", err);
+      toast.dismiss()
       toast.error("Create failed")
     }
   });
@@ -96,7 +98,7 @@ const StudentForm = ({
           render={({ field }) => (
             <Select onValueChange={field.onChange} defaultValue={field.value}>
               <SelectTrigger className="w-[180px]">
-                <SelectValue placeholder="Chọn lớp" />
+                <SelectValue placeholder="Select Class"/>
               </SelectTrigger>
               <SelectContent>
                 {classList && classList.length > 0 ? (
@@ -107,7 +109,7 @@ const StudentForm = ({
                   ))
                 ) : (
                   <SelectItem value="none" disabled>
-                    Không có lớp nào
+                   No classes
                   </SelectItem>
                 )}
               </SelectContent>

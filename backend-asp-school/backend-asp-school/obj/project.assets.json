@@ -4816,11 +4816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\backend-asp-school.csproj",
+      "projectUniqueName": "D:\\code\\school-manage-aspnet\\backend-asp-school\\backend-asp-school\\backend-asp-school.csproj",
       "projectName": "backend-asp-school",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\backend-asp-school.csproj",
+      "projectPath": "D:\\code\\school-manage-aspnet\\backend-asp-school\\backend-asp-school\\backend-asp-school.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\backend-asp-school\\backend-asp-school\\obj\\",
+      "outputPath": "D:\\code\\school-manage-aspnet\\backend-asp-school\\backend-asp-school\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,15 +1,14 @@
+"use client"
 import FormModal from "@/components/FormModal";
 import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
 import { role, subjectsData } from "@/lib/data";
 import Image from "next/image";
+import { Subject } from "@/lib/subject";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
-type Subject = {
-  id: number;
-  name: string;
-  teachers: string[];
-};
 
 const columns = [
   {
@@ -17,8 +16,8 @@ const columns = [
     accessor: "name",
   },
   {
-    header: "Teachers",
-    accessor: "teachers",
+    header: "Description",
+    accessor: "description",
     className: "hidden md:table-cell",
   },
   {
@@ -28,19 +27,35 @@ const columns = [
 ];
 
 const SubjectListPage = () => {
+
+  const [subjects , setSubjects] = useState<Subject[]>([])
+  
+  useEffect(() => {
+    const fetchSubject = async () => {
+        try {
+          const res = await axios.get("http://localhost:5160/api/subjects")
+          setSubjects(res.data)
+        } catch (error) {
+          console.log("Lỗi fetch Subject" , error)
+        }
+    }
+      fetchSubject()
+  } , [])
   const renderRow = (item: Subject) => (
     <tr
-      key={item.id}
+      key={item.subjectID}
       className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-lamaPurpleLight"
     >
-      <td className="flex items-center gap-4 p-4">{item.name}</td>
-      <td className="hidden md:table-cell">{item.teachers.join(",")}</td>
+      <td className="flex items-center gap-4 p-4">{item.subjectName}</td>
+     <td className="hidden md:table-cell">{item.description}</td>
+  
+
       <td>
         <div className="flex items-center gap-2">
           {role === "admin" && (
             <>
               <FormModal table="subject" type="update" data={item} />
-              <FormModal table="subject" type="delete" id={item.id} />
+              <FormModal table="subject" type="delete" id={item.subjectID} />
             </>
           )}
         </div>
@@ -67,9 +82,13 @@ const SubjectListPage = () => {
         </div>
       </div>
       {/* LIST */}
-      <Table columns={columns} renderRow={renderRow} data={subjectsData} />
+      <Table columns={columns} renderRow={renderRow} data={subjects} />
       {/* PAGINATION */}
-      <Pagination />
+      <Pagination 
+         currentPage={1}
+         totalPages={1}
+         onPageChange={(page) => page}
+        />
     </div>
   );
 };

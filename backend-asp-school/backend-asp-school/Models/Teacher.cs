@@ -1,4 +1,5 @@
 using System.Security.Claims;
+using System.Text.Json.Serialization;
 
 namespace backend_asp_school.Models
 {
@@ -10,6 +11,7 @@ namespace backend_asp_school.Models
         public string? Phone { get; set; }
 
         public ICollection<Classes>? Classes { get; set; }
+        [JsonIgnore]
         public ICollection<Lesson>? Lessons { get; set; }
         public ICollection<Exam>? Exams { get; set; }
     }

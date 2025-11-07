@@ -28,11 +28,13 @@ export default function SignInPage() {
 
     if (foundUser) {
       localStorage.setItem("user", JSON.stringify(foundUser));
-      toast.success("Đăng nhập thành công!");
+      toast.dismiss()
+      toast.success("Login success");
       if (foundUser.role === "admin") router.push("/admin");
       else router.push("/list/students");
     } else {
-      toast.error("Sai username hoặc mật khẩu!");
+      toast.dismiss()
+      toast.error("account or password incorect ");
     }
   };
 

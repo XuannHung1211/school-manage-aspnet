@@ -9,6 +9,7 @@ namespace backend_asp_school.Models
         public string? Description { get; set; }
         [JsonIgnore]
         public ICollection<Result>? Results { get; set; }
+        [JsonIgnore]
         public ICollection<Lesson>? Lessons { get; set; }
         public ICollection<Exam>? Exams { get; set; }
     }

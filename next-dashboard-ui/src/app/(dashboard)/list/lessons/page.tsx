@@ -3,15 +3,12 @@ import FormModal from "@/components/FormModal";
 import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
-import { lessonsData, role } from "@/lib/data";
+import { Lesson } from "@/lib/lesson";
+import axios from "axios";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
-type Lesson = {
-  id: number;
-  subject: string;
-  class: string;
-  teacher: string;
-};
+
 
 const columns = [
   {
@@ -34,22 +31,35 @@ const columns = [
 ];
 
 const LessonListPage = () => {
+
+  const [lessons , setLessons] = useState<Lesson[]>([])
+
+  useEffect(() => {
+    const fetchLesson = async () => {
+      try {
+        const res = await axios.get("http://localhost:5160/api/lessons")
+        console.log(res.data)
+        setLessons(res.data)
+      } catch (error) {
+        console.log("Lỗi fetch Lesson" , error)
+      }
+    }
+
+    fetchLesson()
+
+  } , [])
   const renderRow = (item: Lesson) => (
     <tr
-      key={item.id}
+      key={item.lessonID}
       className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-lamaPurpleLight"
     >
-      <td className="flex items-center gap-4 p-4">{item.subject}</td>
-      <td>{item.class}</td>
-      <td className="hidden md:table-cell">{item.teacher}</td>
+      <td className="flex items-center gap-4 p-4">{item.subject?.subjectName}</td>
+      <td>{item.class?.className}</td>
+      <td className="hidden md:table-cell">{item.teacher?.teacherName}</td>
       <td>
-        <div className="flex items-center gap-2">
-          {role === "admin" && (
-            <>
+        <div className="flex items-center gap-2">   
               <FormModal table="lesson" type="update" data={item} />
-              <FormModal table="lesson" type="delete" id={item.id} />
-            </>
-          )}
+              <FormModal table="lesson" type="delete" id={item.lessonID} />
         </div>
       </td>
     </tr>
@@ -69,12 +79,12 @@ const LessonListPage = () => {
             <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
               <Image src="/sort.png" alt="" width={14} height={14} />
             </button>
-            {role === "admin" && <FormModal table="lesson" type="create" />}
+
           </div>
         </div>
       </div>
       {/* LIST */}
-      <Table columns={columns} renderRow={renderRow} data={lessonsData} />
+      <Table columns={columns} renderRow={renderRow} data={lessons} />
       {/* PAGINATION */}
       <Pagination 
         currentPage={1}

@@ -15,8 +15,9 @@ namespace backend_asp_school.Models
         public Teacher? Teacher { get; set; }
 
 
-        [JsonIgnore]
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public ICollection<Student>? Students { get; set; }
+        [JsonIgnore]
         public ICollection<Lesson>? Lessons { get; set; }
         public ICollection<Exam>? Exams { get; set; }
     }
